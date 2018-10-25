@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "w";
+const prefix = "3";
 /////////////////////////
 ////////////////////////
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`- PornHub Movie !`,"http://twitch.tv/S-F")
+client.user.setGame(`3play`,"http://twitch.tv/S-F")
 client.user.setStatus("online")
  
 });
